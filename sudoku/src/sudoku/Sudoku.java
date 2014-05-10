@@ -21,6 +21,10 @@ public class Sudoku {
         
         Board l_board = new Board();
         l_board.display_title();
+        //I just added this line-Janghun Yu
+        Line I_line = new Line();
+        I_line.generate_Number();
+    
     }
     
     String name;
